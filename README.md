@@ -50,6 +50,7 @@ The system follows a standard autonomous driving stack:
 ```text
 ├── config.py                     # Global configuration parameters
 ├── main.py                       # Main entry point for running the agent
+├── all_code.txt                  # Aggregated code snapshot (for reference)
 │
 ├── carla_interface.py            # CARLA simulator connection & API wrapper
 │
@@ -63,7 +64,6 @@ The system follows a standard autonomous driving stack:
 ├── bspline_planner.py            # B-spline based trajectory planner
 │
 ├── controller.py                 # Low-level vehicle control (PID / control laws)
-│
 ├── radar_processor.py            # Radar sensor data processing
 │
 ├── traffic_spawner.py            # Traffic actor spawning in CARLA
@@ -71,7 +71,9 @@ The system follows a standard autonomous driving stack:
 │
 ├── utils.py                      # Utility and helper functions
 │
-└── all_code.txt                  # Aggregated code snapshot (for reference)
+├── README.md
+├── NOTICE
+└── LICENSE 
 ```
 ---
 ## Installation & Setup
